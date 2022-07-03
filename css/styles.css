@@ -1,3 +1,72 @@
 body {
-    background-color: tomato;
+background-color: #E5E5E5;
+}
+.list {
+    list-style: none;
+}
+.link {
+    
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.link .web-logo-link {
+    color: #2196F3;
+}
+.link .studio-logo-link {
+    color: #000000;
+}
+.list .studio-page {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+}
+.list .portfolio-page {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.list .contacts {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.contact-list .contact-email {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
+}
+.contact-list .contact-phone {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
 }
