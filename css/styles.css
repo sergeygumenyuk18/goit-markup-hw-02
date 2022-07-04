@@ -1,2 +1,18 @@
+:root {
+    /* fonts */
+--primary-font: 'roboto', sans-serif;
+--secondary-font: 'raleway', sans-serif;
 
+    /* text colors */
+
+    /* bg colors */
+
+    /* others */
+
+}
+
+body {
+    font-family: var(--primary-font);
+    color: #212121;
+}
 
