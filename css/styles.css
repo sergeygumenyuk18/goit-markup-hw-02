@@ -4,15 +4,142 @@
 --secondary-font: 'raleway', sans-serif;
 
     /* text colors */
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
 
     /* bg colors */
-
+--basic-bg-color: #ffffff;
+--hero-color: #2F303A;
+--accent-color: #2196f3;
     /* others */
+
+--hero-hover-color: #188ce8;
+--black-color: #000000;
+--footer-color: #2F303A;
+--button-background-color: #2196f3;
+
 
 }
 
 body {
     font-family: var(--primary-font);
-    color: #212121;
+    font-family: var(--secondary-font);
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
 }
 
+/* reset styles */
+.link {
+text-decoration: none;
+color: var(--primary-text-color);
+}
+
+.list {
+list-style: none;
+}
+
+/* header section */
+.web-logo-link {
+    color: #2196F3;
+    font-family: var(--secondary-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.header-studio-logo-link {
+    color: var(--primary-text-color);
+    font-family: var(--secondary-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.header-list {
+    font-family: var(--primary-font);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.contacts-list {
+font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-link-current {
+    color: #2196F3;
+}
+
+.mail-link {
+color: #2196F3;
+}
+
+.phone-link {
+    color: var(--secondary-text-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+.phone-link:hover,
+.phone-link:focus {
+    color: var(--accent-color);
+}
+
+.header-link-current {
+    color: var(--accent-color);
+}
+
+.button {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+
+        font-family: inherit;
+            cursor: pointer;
+            border: none;
+}
+.all-button {
+color: #ffffff;
+background-color: var(--button-background-color);
+}
+.hero-button {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        background-color: var(--button-background-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero */
