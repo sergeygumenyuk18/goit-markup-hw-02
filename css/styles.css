@@ -95,7 +95,10 @@ color: var(--white-text-color);
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
-        color: var(--primary-text-color)
+        color: var(--primary-text-color);
+        font-family: inherit;
+        cursor: pointer;
+            border: none;
 }
 
 
@@ -145,6 +148,9 @@ color: var(--white-text-color);
 }
 .section-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
 }
 
 
